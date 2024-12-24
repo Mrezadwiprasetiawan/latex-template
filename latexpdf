@@ -1,0 +1,4 @@
+#!/bin/bash
+
+pdflatex -output-directory=out src/*.tex
+pdflatex -output-directory=out src/*.tex

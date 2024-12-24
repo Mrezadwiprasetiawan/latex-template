@@ -1,0 +1,10 @@
+\babel@toc {indonesian}{}\relax 
+\contentsline {section}{\numberline {1}Pendahuluan}{2}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Latar Belakang}{2}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Rumusan Masalah}{2}{subsection.1.2}%
+\contentsline {section}{\numberline {2}Metode Penelitian}{3}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Metode 1}{3}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Metode 2}{3}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Metode 3}{3}{subsection.2.3}%
+\contentsline {section}{\numberline {3}Kesimpulan}{4}{section.3}%
+\contentsline {section}{Daftar Pustaka}{5}{section*.1}%

@@ -1,0 +1,133 @@
+\documentclass[a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath} %untuk simbol matematika dasar
+\usepackage{ulem}%untuk underline
+\usepackage{graphicx}
+\usepackage{geometry}
+\geometry{left=2.5cm, right=2.5cm, top=3cm, bottom=3cm}
+\usepackage[indonesian]{babel}
+\usepackage{xcolor} % untuk text color
+
+%definisi warna warna
+\definecolor{vermilion}{RGB}{227,66,52}
+\definecolor{amber}{RGB}{255,192,0}
+\definecolor{chartreuse}{RGB}{128,255,0}
+\definecolor{teal}{RGB}{0,128,128}
+\definecolor{violet}{RGB}{128,0,255}
+\definecolor{russet}{RGB}{128,70,27}
+\definecolor{slate}{RGB}{112,128,144}
+\definecolor{citron}{RGB}{221,208,106}
+\definecolor{scarlet}{RGB}{255,36,0}
+\definecolor{spring-green}{RGB}{0,255,128}
+\definecolor{azure}{RGB}{0,128,255}
+\definecolor{rose}{RGB}{255,0,128}
+
+\usepackage{hyperref} % Untuk hyperlink
+\usepackage{tocloft} % Untuk mengatur daftar isi dari suatu daftar (bukan table of content)
+
+\usepackage{titling}
+\usepackage{tikz} % untuk grafis dan pembuatan sampel warna
+\usetikzlibrary{calc}
+
+% Untuk mengubah format penomoran menjadi arab
+\renewcommand\thesection{\arabic{section}}
+% Untuk mengubah format penomoran agar mengabaikan label dari format penomoran section
+\renewcommand\thesubsection{\arabic{section}.\arabic{subsection}}
+
+% Untuk daftar pustaka pemformatan nomor dihapus
+\newcommand{\nonumsection}[1]{\section*{#1}
+\addcontentsline{toc}{section}{#1}
+}
+
+\usepackage{xparse} % flexible new command serta logical IfValueTF
+
+\usepackage{mfirstuc} % kapital huruf pertama
+
+% Membuat textbox dengan background warna tertentu
+\NewDocumentCommand{\warnaln}{mo}{%
+  \tikz[baseline=-0.5\ht\strutbox]{%
+    \node[shape=rectangle, draw=black, fill=#1, minimum height=1.5em, inner sep=2pt]{%
+      \IfValueTF{#2}{\capitalisewords{#2}}{%
+      \capitalisewords{#1}
+      }%
+    };
+  }%
+}
+
+\newcommand{\warnalnbl}[1]{
+  \tikz[baseline=-0.5\ht\strutbox]{
+    \node[shape=rectangle, draw=black, fill=black, minimum height=1.5em, inner sep= 2pt, text=white]{#1}
+  }
+}
+
+\title{%
+  \vspace{-3cm}
+  \centering
+  \vspace{1cm}
+  \textbf{Judul Makalah}\\
+  \large Mata Kuliah: \textbf{Nama Mata Kuliah}\\
+}
+\author{$\begin{array}{c}
+  \textbf{M Reza Dwi Prasetiawan}\\
+  \textbf{Nama anggota lain}\\
+  \textbf{Nama anggota lain}\\
+  \textbf{Nama anggota lain}\\
+\end{array}$
+}
+\date{\today}
+
+\begin{document}
+\pagenumbering{gobble}
+\begin{titlepage}
+  \maketitle
+  \vfill
+  \begin{center}
+    \includegraphics[width=0.6\textwidth]{resources/logo-univ.png}\\
+    \large
+    Teknologi Informasi\\
+    Nama Univ\\
+    Lanjutan nama univ\\
+    Dosen Pengampu: \textbf{Nama Dosen, gelar}\\
+  \end{center}
+\end{titlepage}
+
+\newpage
+\pagenumbering{arabic}
+% Insert table of contents
+\tableofcontents
+\newpage
+\section{Pendahuluan}
+\subsection{Latar Belakang}
+lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+lorem ipsum dolor sit amet, consecture adipiscing elit. Vivamus luctus urna sed urna ultricies ac tempor dui sagittis. In condimentum facilisis porta. Sed nec diam eu diam mattis viverra. Nulla fringilla, orci ac euismod semper, magna diam porttitor mauris, quis sollicitudin sapien justo in libero. Fusce convallis metus id felis luctus adipiscing. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nam nec ante. Sed lacinia, urna non tincidunt mattis, tortor neque adipiscing diam, a cursus ipsum ante quis turpis. Nulla facilisi. Ut fringilla. Suspendisse potenti. Nunc feugiat mi a tellus consequat imperdiet. Vestibulum sapien. Proin quam. Etiam ultrices. Suspendisse in justo eu magna luctus suscipit. Sed lectus. Integer euismod lacus luctus magna. Quisque cursus, metus vitae pharetra auctor.
+\subsection{Rumusan Masalah}
+lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+\newpage
+
+\section{Metode Penelitian}
+\subsection{Metode 1}
+lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+\subsection{Metode 2}
+lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+\subsection{Metode 3}
+lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+\newpage
+
+\section{Kesimpulan}
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus luctus urna sed urna ultricies ac tempor dui sagittis. In condimentum facilisis porta. Sed nec diam eu diam mattis viverra. Nulla fringilla, orci ac euismod semper, magna diam porttitor mauris, quis sollicitudin sapien justo in libero. Fusce convallis metus id felis luctus adipiscing. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nam nec ante. Sed lacinia, urna non tincidunt mattis, tortor neque adipiscing diam, a cursus ipsum ante quis turpis. Nulla facilisi. Ut fringilla. Suspendisse potenti. Nunc feugiat mi a tellus consequat imperdiet. Vestibulum sapien. Proin quam. Etiam ultrices. Suspendisse in justo eu magna luctus suscipit. Sed lectus. Integer euismod lacus luctus magna. Quisque cursus, metus vitae pharetra auctor, sem massa mattis sem, at interdum magna augue eget diam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Morbi lacinia molestie dui. Praesent blandit dolor. Sed non quam. In vel mi sit amet augue congue elementum. Morbi in ipsum sit amet pede facilisis laoreet. Donec lacus nunc, viverra nec.
+
+Proin vel sem ut lorem rhoncus elementum. Nam aliquam, arcu eu hendrerit gravida, nisl purus aliquet risus, non tristique enim sapien vel nisl. Integer sit amet quam nec magna tincidunt lacinia. Proin elementum est vitae mauris vestibulum, non congue metus elementum. Integer fringilla sit amet quam vitae dignissim. Sed ut libero fermentum, faucibus erat sed, ultrices velit. Integer gravida volutpat risus, sit amet accumsan quam tincidunt eu. Nullam sed libero ac felis volutpat ultricies nec eu tortor. Suspendisse potenti. Praesent tincidunt sem neque, sit amet facilisis est volutpat in. Vivamus ultricies nisi nec augue placerat rutrum. Integer euismod risus non quam commodo, et lacinia ligula vehicula. Mauris non enim molestie ligula feugiat consequat. Pellentesque fermentum suscipit tortor, sit amet gravida felis scelerisque id. Nulla consectetur, arcu in cursus blandit, erat mauris feugiat lectus, sed pulvinar nisi urna quis leo. Vivamus vehicula velit erat, vitae ultrices ligula consectetur vel. Duis porttitor erat quis dui convallis, at pharetra sapien consectetur. Suspendisse fermentum magna metus, nec fringilla arcu aliquet a.
+
+Cras id sapien placerat, volutpat nisl eget, feugiat dui. Mauris tempor eu mi nec facilisis. Nulla vulputate ipsum velit, vitae blandit lorem facilisis vel. Sed convallis magna nec ipsum varius cursus. Proin eget velit libero. Nam auctor aliquam arcu nec sodales. Maecenas sit amet erat in arcu scelerisque tristique. Nam eu risus in mauris cursus blandit. Mauris commodo velit vel enim pellentesque tristique. Pellentesque ac ligula non augue elementum pharetra. Nulla quis libero ut justo vulputate eleifend. Curabitur dictum nisl id arcu dignissim, sed suscipit est ultricies. Suspendisse potenti. Fusce et neque risus. Donec ut est lectus. Cras gravida, metus vitae tempor dictum, est nulla fringilla tellus, non auctor ligula elit a metus. Sed posuere eros eget neque sagittis, a vulputate massa bibendum. Sed ac est sapien. In varius, ipsum in vehicula consectetur, neque quam facilisis justo, ac lobortis risus purus eu sapien.
+\newpage
+
+\nonumsection{Daftar Pustaka}
+\begin{enumerate}
+  \item \textcolor{blue}{\href{link}{Hint Text}}
+
+\end{enumerate}
+\end{document}
+

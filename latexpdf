@@ -1,4 +1,29 @@
 #!/bin/bash
 
-pdflatex -output-directory=out src/*.tex
-pdflatex -output-directory=out src/*.tex
+texfiles=$(find src -name "*.tex")
+texnames=()
+
+for file in "${texfiles[@]}" ; do
+    texnames+=( "${file%.*}" )
+    echo "Memproses $file"
+    echo "Menjalankan pdflatex pertama untuk $file"
+    sleep 2
+    pdflatex --output-directory=out "$file"
+    echo "Menjalankan biber untuk out/$(basename ${file%.*})"
+    sleep 2
+    biber out/$(basename ${file%.*})
+    echo "Menjalankan pdflatex kedua untuk $file"
+    sleep 2
+    pdflatex --output-directory=out "$file"
+    echo "Menjalankan ketiga kalinya untuk $file"
+    sleep 2
+    pdflatex --output-directory=out "$file"
+    echo "Done with $file"
+    echo ""
+done
+
+echo ""
+echo "Files processed:"
+for texname in "${texnames[@]}" ; do
+  echo $texname
+done

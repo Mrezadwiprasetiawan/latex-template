@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Termux) (preloaded format=pdflatex 2024.12.24)  24 DEC 2024 10:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Termux) (preloaded format=pdflatex 2024.12.25)  27 DEC 2024 10:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **src/makalah.tex
 (./src/makalah.tex
 LaTeX2e <2024-11-01> patch level 1
-L3 programming layer <2024-11-02>
+L3 programming layer <2024-12-09>
 
 (/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/latex/base/a
 rticle.cls
@@ -33,10 +33,339 @@ Package: inputenc 2024/02/08 v1.3d Input encoding file
 \inpenc@prehook=\toks17
 \inpenc@posthook=\toks18
 )
+(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/latex/csquot
+es/csquotes.sty
+Package: csquotes 2024-04-04 v5.2o context-sensitive quotations (JAW)
+
+(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/latex/etoolb
+ox/etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count270
+)
+(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/latex/graphi
+cs/keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks19
+)
+\csq@reset=\count271
+\csq@gtype=\count272
+\csq@glevel=\count273
+\csq@qlevel=\count274
+\csq@maxlvl=\count275
+\csq@tshold=\count276
+\csq@ltx@everypar=\toks20
+
+(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/latex/csquot
+es/csquotes.def
+File: csquotes.def 2024-04-04 v5.2o csquotes generic definitions (JAW)
+)
+Package csquotes Info: Trying to load configuration file 'csquotes.cfg'...
+Package csquotes Info: ... configuration file loaded successfully.
+
+(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/latex/csquot
+es/csquotes.cfg
+File: csquotes.cfg 
+))
+(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/latex/biblat
+ex/biblatex.sty
+Package: biblatex 2024/03/21 v3.20 programmable bibliographies (PK/MW)
+
+(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pdft
+excmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/infw
+arerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/ifte
+x/iftex.sty
+Package: iftex 2024/12/12 v1.0g TeX engine tests
+)
+(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/ltxc
+mds/ltxcmds.sty
+Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/latex/kvopti
+ons/kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+
+(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/latex/kvsetk
+eys/kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+))
+(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/latex/logreq
+/logreq.sty
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count277
+
+(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/latex/logreq
+/logreq.def
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+))
+(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/latex/base/i
+fthen.sty
+Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
+)
+(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/latex/url/ur
+l.sty
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+\c@tabx@nest=\count278
+\c@listtotal=\count279
+\c@listcount=\count280
+\c@liststart=\count281
+\c@liststop=\count282
+\c@citecount=\count283
+\c@citetotal=\count284
+\c@multicitecount=\count285
+\c@multicitetotal=\count286
+\c@instcount=\count287
+\c@maxnames=\count288
+\c@minnames=\count289
+\c@maxitems=\count290
+\c@minitems=\count291
+\c@citecounter=\count292
+\c@maxcitecounter=\count293
+\c@savedcitecounter=\count294
+\c@uniquelist=\count295
+\c@uniquename=\count296
+\c@refsection=\count297
+\c@refsegment=\count298
+\c@maxextratitle=\count299
+\c@maxextratitleyear=\count300
+\c@maxextraname=\count301
+\c@maxextradate=\count302
+\c@maxextraalpha=\count303
+\c@abbrvpenalty=\count304
+\c@highnamepenalty=\count305
+\c@lownamepenalty=\count306
+\c@maxparens=\count307
+\c@parenlevel=\count308
+\blx@tempcnta=\count309
+\blx@tempcntb=\count310
+\blx@tempcntc=\count311
+\c@blx@maxsection=\count312
+\blx@maxsegment@0=\count313
+\blx@notetype=\count314
+\blx@parenlevel@text=\count315
+\blx@parenlevel@foot=\count316
+\blx@sectionciteorder@0=\count317
+\blx@sectionciteorderinternal@0=\count318
+\blx@entrysetcounter=\count319
+\blx@biblioinstance=\count320
+\labelnumberwidth=\skip51
+\labelalphawidth=\skip52
+\biblabelsep=\skip53
+\bibitemsep=\skip54
+\bibnamesep=\skip55
+\bibinitsep=\skip56
+\bibparsep=\skip57
+\bibhang=\skip58
+\blx@bcfin=\read2
+\blx@bcfout=\write3
+\blx@langwohyphens=\language7
+\c@mincomprange=\count321
+\c@maxcomprange=\count322
+\c@mincompwidth=\count323
+Package biblatex Info: Trying to load biblatex default data model...
+Package biblatex Info: ... file 'blx-dm.def' found.
+
+(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/latex/biblat
+ex/blx-dm.def
+File: blx-dm.def 2024/03/21 v3.20 biblatex datamodel (PK/MW)
+)
+Package biblatex Info: Trying to load biblatex style data model...
+Package biblatex Info: ... file 'verbose.dbx' not found.
+Package biblatex Info: Trying to load biblatex custom data model...
+Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
+\c@afterword=\count324
+\c@savedafterword=\count325
+\c@annotator=\count326
+\c@savedannotator=\count327
+\c@author=\count328
+\c@savedauthor=\count329
+\c@bookauthor=\count330
+\c@savedbookauthor=\count331
+\c@commentator=\count332
+\c@savedcommentator=\count333
+\c@editor=\count334
+\c@savededitor=\count335
+\c@editora=\count336
+\c@savededitora=\count337
+\c@editorb=\count338
+\c@savededitorb=\count339
+\c@editorc=\count340
+\c@savededitorc=\count341
+\c@foreword=\count342
+\c@savedforeword=\count343
+\c@holder=\count344
+\c@savedholder=\count345
+\c@introduction=\count346
+\c@savedintroduction=\count347
+\c@namea=\count348
+\c@savednamea=\count349
+\c@nameb=\count350
+\c@savednameb=\count351
+\c@namec=\count352
+\c@savednamec=\count353
+\c@translator=\count354
+\c@savedtranslator=\count355
+\c@shortauthor=\count356
+\c@savedshortauthor=\count357
+\c@shorteditor=\count358
+\c@savedshorteditor=\count359
+\c@labelname=\count360
+\c@savedlabelname=\count361
+\c@institution=\count362
+\c@savedinstitution=\count363
+\c@lista=\count364
+\c@savedlista=\count365
+\c@listb=\count366
+\c@savedlistb=\count367
+\c@listc=\count368
+\c@savedlistc=\count369
+\c@listd=\count370
+\c@savedlistd=\count371
+\c@liste=\count372
+\c@savedliste=\count373
+\c@listf=\count374
+\c@savedlistf=\count375
+\c@location=\count376
+\c@savedlocation=\count377
+\c@organization=\count378
+\c@savedorganization=\count379
+\c@origlocation=\count380
+\c@savedoriglocation=\count381
+\c@origpublisher=\count382
+\c@savedorigpublisher=\count383
+\c@publisher=\count384
+\c@savedpublisher=\count385
+\c@language=\count386
+\c@savedlanguage=\count387
+\c@origlanguage=\count388
+\c@savedoriglanguage=\count389
+\c@pageref=\count390
+\c@savedpageref=\count391
+\shorthandwidth=\skip59
+\shortjournalwidth=\skip60
+\shortserieswidth=\skip61
+\shorttitlewidth=\skip62
+\shortauthorwidth=\skip63
+\shorteditorwidth=\skip64
+\locallabelnumberwidth=\skip65
+\locallabelalphawidth=\skip66
+\localshorthandwidth=\skip67
+\localshortjournalwidth=\skip68
+\localshortserieswidth=\skip69
+\localshorttitlewidth=\skip70
+\localshortauthorwidth=\skip71
+\localshorteditorwidth=\skip72
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+
+(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/latex/biblat
+ex/blx-compat.def
+File: blx-compat.def 2024/03/21 v3.20 biblatex compatibility (PK/MW)
+)
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+
+(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/latex/biblat
+ex/biblatex.def
+File: biblatex.def 2024/03/21 v3.20 biblatex compatibility (PK/MW)
+\c@textcitecount=\count392
+\c@textcitetotal=\count393
+\c@textcitemaxnames=\count394
+\c@biburlbigbreakpenalty=\count395
+\c@biburlbreakpenalty=\count396
+\c@biburlnumpenalty=\count397
+\c@biburlucpenalty=\count398
+\c@biburllcpenalty=\count399
+\biburlbigskip=\muskip18
+\biburlnumskip=\muskip19
+\biburlucskip=\muskip20
+\biburllcskip=\muskip21
+\c@smartand=\count400
+)
+Package biblatex Info: Trying to load bibliography style 'verbose'...
+Package biblatex Info: ... file 'verbose.bbx' found.
+
+(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/latex/biblat
+ex/bbx/verbose.bbx
+File: verbose.bbx 2024/03/21 v3.20 biblatex bibliography style (PK/MW)
+Package biblatex Info: Trying to load bibliography style 'authortitle'...
+Package biblatex Info: ... file 'authortitle.bbx' found.
+
+(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/latex/biblat
+ex/bbx/authortitle.bbx
+File: authortitle.bbx 2024/03/21 v3.20 biblatex bibliography style (PK/MW)
+Package biblatex Info: Trying to load bibliography style 'standard'...
+Package biblatex Info: ... file 'standard.bbx' found.
+
+(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/latex/biblat
+ex/bbx/standard.bbx
+File: standard.bbx 2024/03/21 v3.20 biblatex bibliography style (PK/MW)
+\c@bbx:relatedcount=\count401
+\c@bbx:relatedtotal=\count402
+)))
+Package biblatex Info: Trying to load citation style 'verbose'...
+Package biblatex Info: ... file 'verbose.cbx' found.
+
+(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/latex/biblat
+ex/cbx/verbose.cbx
+File: verbose.cbx 2024/03/21 v3.20 biblatex citation style (PK/MW)
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\textcites'.
+)
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+
+(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/latex/biblat
+ex/biblatex.cfg
+File: biblatex.cfg 
+)
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Document encoding is UTF8 ....
+
+(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/latex/l3kern
+el/expl3.sty
+Package: expl3 2024-12-09 L3 programming layer (loader) 
+
+(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/latex/l3back
+end/l3backend-pdftex.def
+File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count403
+\l__pdf_internal_box=\box52
+))
+Package biblatex Info: ... and expl3
+(biblatex)             2024-12-09 L3 programming layer (loader) 
+(biblatex)             is new enough (at least 2020/04/06),
+(biblatex)             setting 'casechanger=expl3'.
+
+(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/latex/biblat
+ex/blx-case-expl3.sty
+(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/latex/l3pack
+ages/xparse/xparse.sty
+Package: xparse 2024-08-16 L3 Experimental document command parser
+)
+Package: blx-case-expl3 2024/03/21 v3.20 expl3 case changing code for biblatex
+))
 (/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/latex/amsmat
 h/amsmath.sty
 Package: amsmath 2024/11/05 v2.17t AMS math features
-\@mathmargin=\skip51
+\@mathmargin=\skip73
 
 For additional information on amsmath, use the `?' option.
 
@@ -47,7 +376,7 @@ Package: amstext 2021/08/26 v2.01 AMS text
 (/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/latex/amsmat
 h/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks19
+\@emptytoks=\toks21
 \ex@=\dimen142
 ))
 (/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/latex/amsmat
@@ -59,19 +388,19 @@ Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 h/amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
-\inf@bad=\count270
+\inf@bad=\count404
 LaTeX Info: Redefining \frac on input line 233.
-\uproot@=\count271
-\leftroot@=\count272
+\uproot@=\count405
+\leftroot@=\count406
 LaTeX Info: Redefining \overline on input line 398.
 LaTeX Info: Redefining \colon on input line 409.
-\classnum@=\count273
-\DOTSCASE@=\count274
+\classnum@=\count407
+\DOTSCASE@=\count408
 LaTeX Info: Redefining \ldots on input line 495.
 LaTeX Info: Redefining \dots on input line 498.
 LaTeX Info: Redefining \cdots on input line 619.
-\Mathstrutbox@=\box52
-\strutbox@=\box53
+\Mathstrutbox@=\box53
+\strutbox@=\box54
 LaTeX Info: Redefining \big on input line 721.
 LaTeX Info: Redefining \Big on input line 722.
 LaTeX Info: Redefining \bigg on input line 723.
@@ -79,44 +408,57 @@ LaTeX Info: Redefining \Bigg on input line 724.
 \big@size=\dimen144
 LaTeX Font Info:    Redeclaring font encoding OML on input line 742.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 743.
-\macc@depth=\count275
+\macc@depth=\count409
 LaTeX Info: Redefining \bmod on input line 904.
 LaTeX Info: Redefining \pmod on input line 909.
 LaTeX Info: Redefining \smash on input line 939.
 LaTeX Info: Redefining \relbar on input line 969.
 LaTeX Info: Redefining \Relbar on input line 970.
-\c@MaxMatrixCols=\count276
-\dotsspace@=\muskip17
-\c@parentequation=\count277
-\dspbrk@lvl=\count278
-\tag@help=\toks20
-\row@=\count279
-\column@=\count280
-\maxfields@=\count281
-\andhelp@=\toks21
+\c@MaxMatrixCols=\count410
+\dotsspace@=\muskip22
+\c@parentequation=\count411
+\dspbrk@lvl=\count412
+\tag@help=\toks22
+\row@=\count413
+\column@=\count414
+\maxfields@=\count415
+\andhelp@=\toks23
 \eqnshift@=\dimen145
 \alignsep@=\dimen146
 \tagshift@=\dimen147
 \tagwidth@=\dimen148
 \totwidth@=\dimen149
 \lineht@=\dimen150
-\@envbody=\toks22
-\multlinegap=\skip52
-\multlinetaggap=\skip53
-\mathdisplay@stack=\toks23
+\@envbody=\toks24
+\multlinegap=\skip74
+\multlinetaggap=\skip75
+\mathdisplay@stack=\toks25
 LaTeX Info: Redefining \[ on input line 2953.
 LaTeX Info: Redefining \] on input line 2954.
 )
+(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/latex/lipsum
+/lipsum.sty
+(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/latex/l3pack
+ages/l3keys2e/l3keys2e.sty
+Package: l3keys2e 2024-08-16 LaTeX2e option processing using LaTeX3 keys
+)
+Package: lipsum 2021-09-20 v2.7 150 paragraphs of Lorem Ipsum dummy text
+\g__lipsum_par_int=\count416
+\l__lipsum_a_int=\count417
+\l__lipsum_b_int=\count418
+
+(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/latex/lipsum
+/lipsum.ltd.tex))
 (/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/ulem
 /ulem.sty
-\UL@box=\box54
-\UL@hyphenbox=\box55
-\UL@skip=\skip54
-\UL@hook=\toks24
+\UL@box=\box55
+\UL@hyphenbox=\box56
+\UL@skip=\skip76
+\UL@hook=\toks26
 \UL@height=\dimen151
-\UL@pe=\count282
+\UL@pe=\count419
 \UL@pixel=\dimen152
-\ULC@box=\box56
+\ULC@box=\box57
 Package: ulem 2019/11/18
 \ULdepth=\dimen153
 )
@@ -124,11 +466,6 @@ Package: ulem 2019/11/18
 cs/graphicx.sty
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
 
-(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/latex/graphi
-cs/keyval.sty
-Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
-\KV@toks@=\toks25
-)
 (/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/latex/graphi
 cs/graphics.sty
 Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
@@ -157,14 +494,10 @@ Package: geometry 2020/01/02 v5.9 Page Geometry
 (/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/ifte
 x/ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
-
-(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/ifte
-x/iftex.sty
-Package: iftex 2024/12/12 v1.0g TeX engine tests
-))
-\Gm@cnth=\count283
-\Gm@cntv=\count284
-\c@Gm@tempcnt=\count285
+)
+\Gm@cnth=\count420
+\Gm@cntv=\count421
+\c@Gm@tempcnt=\count422
 \Gm@bindingoffset=\dimen156
 \Gm@wd@mp=\dimen157
 \Gm@odd@mp=\dimen158
@@ -173,20 +506,20 @@ Package: iftex 2024/12/12 v1.0g TeX engine tests
 \Gm@layoutheight=\dimen161
 \Gm@layouthoffset=\dimen162
 \Gm@layoutvoffset=\dimen163
-\Gm@dimlist=\toks26
+\Gm@dimlist=\toks27
 )
 (/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/babe
 l/babel.sty
 Package: babel 2024/12/21 v24.15 The multilingual framework for pdfLaTeX, LuaLa
 TeX and XeLaTeX
-\babel@savecnt=\count286
+\babel@savecnt=\count423
 \U@D=\dimen164
-\l@unhyphenated=\language7
+\l@unhyphenated=\language8
 
 (/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/babe
 l/txtbabel.def)
-\bbl@readstream=\read2
-\bbl@dirlevel=\count287
+\bbl@readstream=\read3
+\bbl@dirlevel=\count424
 
 (/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/babe
 l-indonesian/indonesian.ldf
@@ -234,10 +567,6 @@ Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
 ef/hyperref.sty
 Package: hyperref 2024-11-05 v7.01l Hypertext links for LaTeX
 
-(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/latex/kvsetk
-eys/kvsetkeys.sty
-Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
-)
 (/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/kvde
 finekeys/kvdefinekeys.sty
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
@@ -245,24 +574,7 @@ Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
 (/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pdfe
 scape/pdfescape.sty
 Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
-
-(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/ltxc
-mds/ltxcmds.sty
-Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
 )
-(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pdft
-excmds/pdftexcmds.sty
-Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
-)
-
-(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/infw
-arerr/infwarerr.sty
-Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
-)
-Package pdftexcmds Info: \pdf@primitive is available.
-Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode found.
-))
 (/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/latex/hycolo
 r/hycolor.sty
 Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
@@ -278,17 +590,8 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 (/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/gett
 itlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
-
-(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/latex/kvopti
-ons/kvoptions.sty
-Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
-))
-\c@section@level=\count288
 )
-(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/latex/etoolb
-ox/etoolbox.sty
-Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count289
+\c@section@level=\count425
 )
 (/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/stri
 ngenc/stringenc.sty
@@ -296,8 +599,8 @@ Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
 )
 )
 \@linkdim=\dimen165
-\Hy@linkcounter=\count290
-\Hy@pagecounter=\count291
+\Hy@linkcounter=\count426
+\Hy@pagecounter=\count427
 
 (/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/latex/hyperr
 ef/pd1enc.def
@@ -309,7 +612,7 @@ Now handling font encoding PD1 ...
 alc/intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-\Hy@SavedSpaceFactor=\count292
+\Hy@SavedSpaceFactor=\count428
 
 (/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/latex/hyperr
 ef/puenc.def
@@ -324,13 +627,7 @@ Package hyperref Info: Plain pages OFF on input line 4172.
 Package hyperref Info: Backreferencing OFF on input line 4177.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4424.
-\c@Hy@tempcnt=\count293
-
-(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/latex/url/ur
-l.sty
-\Urlmuskip=\muskip18
-Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
-)
+\c@Hy@tempcnt=\count429
 LaTeX Info: Redefining \url on input line 4763.
 \XeTeXLinkMargin=\dimen166
 
@@ -343,7 +640,7 @@ ntcalc/bigintcalc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count294
+\Fld@menulength=\count430
 \Field@Width=\dimen167
 \Fld@charsize=\dimen168
 Package hyperref Info: Hyper figures OFF on input line 6042.
@@ -359,9 +656,9 @@ tbegshi-ltx.sty
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
-\Hy@abspage=\count295
-\c@Item=\count296
-\c@Hfootnote=\count297
+\Hy@abspage=\count431
+\c@Item=\count432
+\c@Hfootnote=\count433
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
 
@@ -375,8 +672,8 @@ Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
 kage
 with kernel methods
 )
-\Fld@listcount=\count298
-\c@bookmark@seq@number=\count299
+\Fld@listcount=\count434
+\c@bookmark@seq@number=\count435
 
 (/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/latex/rerunf
 ilecheck/rerunfilecheck.sty
@@ -389,52 +686,52 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 85.
 )
-\Hy@SectionHShift=\skip55
+\Hy@SectionHShift=\skip77
 )
 (/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/latex/toclof
 t/tocloft.sty
 Package: tocloft 2017/08/31 v2.3i parameterised ToC, etc., typesetting
 Package tocloft Info: The document has section divisions on input line 51.
-\cftparskip=\skip56
-\cftbeforetoctitleskip=\skip57
-\cftaftertoctitleskip=\skip58
-\cftbeforepartskip=\skip59
-\cftpartnumwidth=\skip60
-\cftpartindent=\skip61
-\cftbeforesecskip=\skip62
-\cftsecindent=\skip63
-\cftsecnumwidth=\skip64
-\cftbeforesubsecskip=\skip65
-\cftsubsecindent=\skip66
-\cftsubsecnumwidth=\skip67
-\cftbeforesubsubsecskip=\skip68
-\cftsubsubsecindent=\skip69
-\cftsubsubsecnumwidth=\skip70
-\cftbeforeparaskip=\skip71
-\cftparaindent=\skip72
-\cftparanumwidth=\skip73
-\cftbeforesubparaskip=\skip74
-\cftsubparaindent=\skip75
-\cftsubparanumwidth=\skip76
-\cftbeforeloftitleskip=\skip77
-\cftafterloftitleskip=\skip78
-\cftbeforefigskip=\skip79
-\cftfigindent=\skip80
-\cftfignumwidth=\skip81
-\c@lofdepth=\count300
-\c@lotdepth=\count301
-\cftbeforelottitleskip=\skip82
-\cftafterlottitleskip=\skip83
-\cftbeforetabskip=\skip84
-\cfttabindent=\skip85
-\cfttabnumwidth=\skip86
+\cftparskip=\skip78
+\cftbeforetoctitleskip=\skip79
+\cftaftertoctitleskip=\skip80
+\cftbeforepartskip=\skip81
+\cftpartnumwidth=\skip82
+\cftpartindent=\skip83
+\cftbeforesecskip=\skip84
+\cftsecindent=\skip85
+\cftsecnumwidth=\skip86
+\cftbeforesubsecskip=\skip87
+\cftsubsecindent=\skip88
+\cftsubsecnumwidth=\skip89
+\cftbeforesubsubsecskip=\skip90
+\cftsubsubsecindent=\skip91
+\cftsubsubsecnumwidth=\skip92
+\cftbeforeparaskip=\skip93
+\cftparaindent=\skip94
+\cftparanumwidth=\skip95
+\cftbeforesubparaskip=\skip96
+\cftsubparaindent=\skip97
+\cftsubparanumwidth=\skip98
+\cftbeforeloftitleskip=\skip99
+\cftafterloftitleskip=\skip100
+\cftbeforefigskip=\skip101
+\cftfigindent=\skip102
+\cftfignumwidth=\skip103
+\c@lofdepth=\count436
+\c@lotdepth=\count437
+\cftbeforelottitleskip=\skip104
+\cftafterlottitleskip=\skip105
+\cftbeforetabskip=\skip106
+\cfttabindent=\skip107
+\cfttabnumwidth=\skip108
 )
 (/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/latex/titlin
 g/titling.sty
 Package: titling 2009/09/04 v2.1d maketitle typesetting
-\thanksmarkwidth=\skip87
-\thanksmargin=\skip88
-\droptitle=\skip89
+\thanksmarkwidth=\skip109
+\thanksmargin=\skip110
+\droptitle=\skip111
 )
 (/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/latex/pgf/fr
 ontendlayer/tikz.sty
@@ -444,13 +741,13 @@ siclayer/pgf.sty
 ilities/pgfrcs.sty
 (/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pgf/
 utilities/pgfutil-common.tex
-\pgfutil@everybye=\toks27
+\pgfutil@everybye=\toks28
 \pgfutil@tempdima=\dimen169
 \pgfutil@tempdimb=\dimen170
 )
 (/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pgf/
 utilities/pgfutil-latex.def
-\pgfutil@abb=\box57
+\pgfutil@abb=\box58
 )
 (/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pgf/
 utilities/pgfrcs.code.tex
@@ -470,12 +767,12 @@ Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
 
 (/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pgf/
 utilities/pgfkeys.code.tex
-\pgfkeys@pathtoks=\toks28
-\pgfkeys@temptoks=\toks29
+\pgfkeys@pathtoks=\toks29
+\pgfkeys@temptoks=\toks30
 
 (/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pgf/
 utilities/pgfkeyslibraryfiltered.code.tex
-\pgfkeys@tmptoks=\toks30
+\pgfkeys@tmptoks=\toks31
 ))
 \pgf@x=\dimen171
 \pgf@y=\dimen172
@@ -487,16 +784,16 @@ utilities/pgfkeyslibraryfiltered.code.tex
 \pgf@yc=\dimen178
 \pgf@xd=\dimen179
 \pgf@yd=\dimen180
-\w@pgf@writea=\write3
-\r@pgf@reada=\read3
-\c@pgf@counta=\count302
-\c@pgf@countb=\count303
-\c@pgf@countc=\count304
-\c@pgf@countd=\count305
-\t@pgf@toka=\toks31
-\t@pgf@tokb=\toks32
-\t@pgf@tokc=\toks33
-\pgf@sys@id@count=\count306
+\w@pgf@writea=\write4
+\r@pgf@reada=\read4
+\c@pgf@counta=\count438
+\c@pgf@countb=\count439
+\c@pgf@countc=\count440
+\c@pgf@countd=\count441
+\t@pgf@toka=\toks32
+\t@pgf@tokb=\toks33
+\t@pgf@tokc=\toks34
+\pgf@sys@id@count=\count442
 
 (/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pgf/
 systemlayer/pgf.cfg
@@ -515,8 +812,8 @@ File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
 (/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pgf/
 systemlayer/pgfsyssoftpath.code.tex
 File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfsyssoftpath@smallbuffer@items=\count307
-\pgfsyssoftpath@bigbuffer@items=\count308
+\pgfsyssoftpath@smallbuffer@items=\count443
+\pgfsyssoftpath@bigbuffer@items=\count444
 )
 (/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pgf/
 systemlayer/pgfsysprotocol.code.tex
@@ -533,11 +830,11 @@ math/pgfmathutil.code.tex)
 (/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pgf/
 math/pgfmathparser.code.tex
 \pgfmath@dimen=\dimen181
-\pgfmath@count=\count309
-\pgfmath@box=\box58
-\pgfmath@toks=\toks34
-\pgfmath@stack@operand=\toks35
-\pgfmath@stack@operation=\toks36
+\pgfmath@count=\count445
+\pgfmath@box=\box59
+\pgfmath@toks=\toks35
+\pgfmath@stack@operand=\toks36
+\pgfmath@stack@operation=\toks37
 )
 (/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pgf/
 math/pgfmathfunctions.code.tex)
@@ -561,7 +858,7 @@ math/pgfmathfunctions.integerarithmetics.code.tex)
 math/pgfmathcalc.code.tex)
 (/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pgf/
 math/pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count310
+\c@pgfmathroundto@lastzeros=\count446
 ))
 (/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pgf/
 math/pgfint.code.tex)
@@ -598,10 +895,10 @@ File: pgfcorepathusage.code.tex 2023-01-15 v3.1.10 (3.1.10)
 (/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pgf/
 basiclayer/pgfcorescopes.code.tex
 File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfpic=\box59
-\pgf@hbox=\box60
-\pgf@layerbox@main=\box61
-\pgf@picture@serial@count=\count311
+\pgfpic=\box60
+\pgf@hbox=\box61
+\pgf@layerbox@main=\box62
+\pgf@picture@serial@count=\count447
 )
 (/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pgf/
 basiclayer/pgfcoregraphicstate.code.tex
@@ -636,8 +933,8 @@ File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
 basiclayer/pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@max=\dimen261
-\pgf@sys@shading@range@num=\count312
-\pgf@shadingcount=\count313
+\pgf@sys@shading@range@num=\count448
+\pgf@shadingcount=\count449
 )
 (/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pgf/
 basiclayer/pgfcoreimage.code.tex
@@ -646,7 +943,7 @@ File: pgfcoreimage.code.tex 2023-01-15 v3.1.10 (3.1.10)
 (/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pgf/
 basiclayer/pgfcoreexternal.code.tex
 File: pgfcoreexternal.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfexternal@startupbox=\box62
+\pgfexternal@startupbox=\box63
 )
 (/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pgf/
 basiclayer/pgfcorelayers.code.tex
@@ -667,7 +964,7 @@ File: pgfcorerdf.code.tex 2023-01-15 v3.1.10 (3.1.10)
 (/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pgf/
 modules/pgfmoduleshapes.code.tex
 File: pgfmoduleshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfnodeparttextbox=\box63
+\pgfnodeparttextbox=\box64
 )
 (/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pgf/
 modules/pgfmoduleplot.code.tex
@@ -698,8 +995,8 @@ utilities/pgffor.code.tex
 Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
 \pgffor@iter=\dimen264
 \pgffor@skip=\dimen265
-\pgffor@stack=\toks37
-\pgffor@toks=\toks38
+\pgffor@stack=\toks38
+\pgffor@toks=\toks39
 ))
 (/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pgf/
 frontendlayer/tikz/tikz.code.tex
@@ -708,7 +1005,7 @@ Package: tikz 2023-01-15 v3.1.10 (3.1.10)
 (/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pgf/
 libraries/pgflibraryplothandlers.code.tex
 File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@plot@mark@count=\count314
+\pgf@plot@mark@count=\count450
 \pgfplotmarksize=\dimen266
 )
 \tikz@lastx=\dimen267
@@ -719,23 +1016,23 @@ File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \tikz@lastmovetoy=\dimen272
 \tikzleveldistance=\dimen273
 \tikzsiblingdistance=\dimen274
-\tikz@figbox=\box64
-\tikz@figbox@bg=\box65
-\tikz@tempbox=\box66
-\tikz@tempbox@bg=\box67
-\tikztreelevel=\count315
-\tikznumberofchildren=\count316
-\tikznumberofcurrentchild=\count317
-\tikz@fig@count=\count318
+\tikz@figbox=\box65
+\tikz@figbox@bg=\box66
+\tikz@tempbox=\box67
+\tikz@tempbox@bg=\box68
+\tikztreelevel=\count451
+\tikznumberofchildren=\count452
+\tikznumberofcurrentchild=\count453
+\tikz@fig@count=\count454
 
 (/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pgf/
 modules/pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfmatrixcurrentrow=\count319
-\pgfmatrixcurrentcolumn=\count320
-\pgf@matrix@numberofcolumns=\count321
+\pgfmatrixcurrentrow=\count455
+\pgfmatrixcurrentcolumn=\count456
+\pgf@matrix@numberofcolumns=\count457
 )
-\tikz@expandcount=\count322
+\tikz@expandcount=\count458
 
 (/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/generic/pgf/
 frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex
@@ -745,61 +1042,74 @@ File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
 frontendlayer/tikz/libraries/tikzlibrarycalc.code.tex
 File: tikzlibrarycalc.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )
-(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/latex/l3pack
-ages/xparse/xparse.sty
-(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/latex/l3kern
-el/expl3.sty
-Package: expl3 2024-11-02 L3 programming layer (loader) 
-
-(/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/latex/l3back
-end/l3backend-pdftex.def
-File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count323
-\l__pdf_internal_box=\box68
-))
-Package: xparse 2024-08-16 L3 Experimental document command parser
-)
 (/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/latex/mfirst
 uc/mfirstuc.sty
 Package: mfirstuc 2022/10/14 v2.08 (NLCT)
-\@glsmfirst=\toks39
-\@glsmrest=\toks40
-) (out/makalah.aux)
+\@glsmfirst=\toks40
+\@glsmrest=\toks41
+)
+Package csquotes Info: Checking for multilingual support...
+Package csquotes Info: ... found 'babel' package.
+Package csquotes Info: Adjusting default style.
+
+
+Package csquotes Warning: No style for language 'indonesian'.
+(csquotes)                Using fallback style on input line 82.
+
+Package csquotes Info: Redefining alias 'default' -> 'fallback'.
+(out/makalah.aux)
 \openout1 = `makalah.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+Package biblatex Info: Trying to load language 'indonesian'...
+Package biblatex Info: ... file 'indonesian.lbx' not found.
+
+
+Package biblatex Warning: Language 'indonesian' not supported.
+(biblatex)                Using dummy definitions on input line 82.
+
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'utf8'.
+\openout3 = `makalah.bcf'.
+
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'makalah.bbl' found.
+(out/makalah.bbl)
+Package biblatex Info: Reference section=0 on input line 82.
+Package biblatex Info: Reference segment=0 on input line 82.
 
 (/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/context/base
 /mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count324
+\scratchcounter=\count459
 \scratchdimen=\dimen275
 \scratchbox=\box69
-\nofMPsegments=\count325
-\nofMParguments=\count326
-\everyMPshowfont=\toks41
-\MPscratchCnt=\count327
+\nofMPsegments=\count460
+\nofMParguments=\count461
+\everyMPshowfont=\toks42
+\MPscratchCnt=\count462
 \MPscratchDim=\dimen276
-\MPnumerator=\count328
-\makeMPintoPDFobject=\count329
-\everyMPtoPDFconversion=\toks42
+\MPnumerator=\count463
+\makeMPintoPDFobject=\count464
+\everyMPtoPDFconversion=\toks43
 )
 (/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/tex/latex/epstop
 df-pkg/epstopdf-base.sty
@@ -846,65 +1156,145 @@ e
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring OFF on input line 79.
+Package hyperref Info: Link coloring OFF on input line 82.
 (out/makalah.out) (out/makalah.out)
-\@outlinefile=\write4
-\openout4 = `makalah.out'.
+\@outlinefile=\write5
+\openout5 = `makalah.out'.
 
 <resources/logo-univ.png, id=43, 385.44pt x 385.44pt>
 File: resources/logo-univ.png Graphic file (type png)
 <use resources/logo-univ.png>
-Package pdftex.def Info: resources/logo-univ.png  used on input line 85.
+Package pdftex.def Info: resources/logo-univ.png  used on input line 88.
 (pdftex.def)             Requested size: 273.14923pt x 273.14676pt.
 
 
 [1
 
-
-
-pdfTeX warning: pdflatex (file pdftex.map): cannot open font map file
- <./resources/logo-univ.png>] (out/makalah.toc)
-\tf@toc=\write5
-\openout5 = `makalah.toc'.
+{/data/data/com.termux/files/usr/share/texlive/2024/texmf-var/fonts/map/pdftex/
+updmap/pdftex.map} <./resources/logo-univ.png>] (out/makalah.toc)
+\tf@toc=\write6
+\openout6 = `makalah.toc'.
 
 
 
 [1]
 
+Package lipsum Warning: Unknown language 'latin'. Hyphenation patterns for
+(lipsum)                'indonesian' will be used instead.
+
+
+Package biblatex Warning: Using fallback definition for \mkbibdatelong.
+(biblatex)                The command should be defined in the .lbx file.
+(biblatex)                If you see this message, the .lbx file could not be
+(biblatex)                loaded, is faulty or does not contain a definition
+(biblatex)                for \mkbibdatelong.
+
+
+
 [2]
+
+Package biblatex Warning: Using fallback definition for \mkbibdatelong.
+(biblatex)                The command should be defined in the .lbx file.
+(biblatex)                If you see this message, the .lbx file could not be
+(biblatex)                loaded, is faulty or does not contain a definition
+(biblatex)                for \mkbibdatelong.
+
+
+Package biblatex Warning: Using fallback definition for \mkbibdatelong.
+(biblatex)                The command should be defined in the .lbx file.
+(biblatex)                If you see this message, the .lbx file could not be
+(biblatex)                loaded, is faulty or does not contain a definition
+(biblatex)                for \mkbibdatelong.
+
+
+Package biblatex Warning: Using fallback definition for \mkbibdatelong.
+(biblatex)                The command should be defined in the .lbx file.
+(biblatex)                If you see this message, the .lbx file could not be
+(biblatex)                loaded, is faulty or does not contain a definition
+(biblatex)                for \mkbibdatelong.
+
+
+Package biblatex Warning: Using fallback definition for \mkbibdatelong.
+(biblatex)                The command should be defined in the .lbx file.
+(biblatex)                If you see this message, the .lbx file could not be
+(biblatex)                loaded, is faulty or does not contain a definition
+(biblatex)                for \mkbibdatelong.
+
+
 
 [3]
 
 [4]
 
+Package biblatex Warning: Using fallback definition for \mkbibdatelong.
+(biblatex)                The command should be defined in the .lbx file.
+(biblatex)                If you see this message, the .lbx file could not be
+(biblatex)                loaded, is faulty or does not contain a definition
+(biblatex)                for \mkbibdatelong.
+
+
+Package biblatex Warning: Using fallback definition for \mkbibdatelong.
+(biblatex)                The command should be defined in the .lbx file.
+(biblatex)                If you see this message, the .lbx file could not be
+(biblatex)                loaded, is faulty or does not contain a definition
+(biblatex)                for \mkbibdatelong.
+
+
+Package biblatex Warning: Using fallback definition for \mkbibdatelong.
+(biblatex)                The command should be defined in the .lbx file.
+(biblatex)                If you see this message, the .lbx file could not be
+(biblatex)                loaded, is faulty or does not contain a definition
+(biblatex)                for \mkbibdatelong.
+
+
+Package biblatex Warning: Using fallback definition for \mkbibdatelong.
+(biblatex)                The command should be defined in the .lbx file.
+(biblatex)                If you see this message, the .lbx file could not be
+(biblatex)                loaded, is faulty or does not contain a definition
+(biblatex)                for \mkbibdatelong.
+
+
+Package biblatex Warning: Using fallback definition for \mkbibdatelong.
+(biblatex)                The command should be defined in the .lbx file.
+(biblatex)                If you see this message, the .lbx file could not be
+(biblatex)                loaded, is faulty or does not contain a definition
+(biblatex)                for \mkbibdatelong.
+
+
+
 [5] (out/makalah.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 1
-L3 programming layer <2024-11-02>
+L3 programming layer <2024-12-09>
  ***********
 Package rerunfilecheck Info: File `makalah.out' has not changed.
-(rerunfilecheck)             Checksum: C1C2B376E2A683FBED36A7A8928CE5A6;1004.
+(rerunfilecheck)             Checksum: F54A7306EA27BC996B755AB12E4D3558;1178.
+Package logreq Info: Writing requests to 'makalah.run.xml'.
+\openout1 = `makalah.run.xml'.
+
  ) 
 Here is how much of TeX's memory you used:
- 21907 strings out of 475247
- 415649 string characters out of 5764655
- 795249 words of memory out of 5000000
- 44421 multiletter control sequences out of 15000+600000
+ 29356 strings out of 475171
+ 568046 string characters out of 5762848
+ 1445731 words of memory out of 5000000
+ 51863 multiletter control sequences out of 15000+600000
  564486 words of font info for 59 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 84i,15n,87p,1215b,467s stack positions out of 10000i,1000n,20000p,200000b,200000s
- </data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/fonts/pk/ljfo
-ur/public/cm/dpi600/cmr10.pk> </data/data/com.termux/files/usr/share/texlive/20
-24/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmbx10.pk> </data/data/com.termu
-x/files/home/.texlive2024/texmf-var/fonts/pk/ljfour/public/cm/cmbx12.720pk> </d
-ata/data/com.termux/files/home/.texlive2024/texmf-var/fonts/pk/ljfour/public/cm
-/cmbx12.600pk> </data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/f
-onts/pk/ljfour/public/cm/dpi600/cmr12.pk> </data/data/com.termux/files/home/.te
-xlive2024/texmf-var/fonts/pk/ljfour/public/cm/cmbx12.864pk>
-Output written on out/makalah.pdf (6 pages, 68672 bytes).
+ 84i,15n,87p,700b,1557s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmbx10.pfb></data/data/com.termux/files/usr/share/texlive/2024
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></data/data/com.termux/fi
+les/usr/share/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb>
+</data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmr12.pfb></data/data/com.termux/files/usr/share/texlive/2024/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></data/data/com.termux/files/u
+sr/share/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></data
+/data/com.termux/files/usr/share/texlive/2024/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmr8.pfb>
+Output written on out/makalah.pdf (6 pages, 115574 bytes).
 PDF statistics:
- 283 PDF objects out of 1000 (max. 8388607)
- 103 compressed objects within 2 object streams
- 17 named destinations out of 1000 (max. 500000)
+ 155 PDF objects out of 1000 (max. 8388607)
+ 129 compressed objects within 2 object streams
+ 34 named destinations out of 1000 (max. 500000)
  90 words of extra memory for PDF output out of 10000 (max. 10000000)
 

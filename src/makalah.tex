@@ -1,6 +1,10 @@
 \documentclass[a4paper]{article}
 \usepackage[utf8]{inputenc}
+\usepackage{csquotes} %untuk mengubah tanda kutip(biblatex butuh ini)
+\usepackage[backend=biber,style=verbose]{biblatex} %untuk bibiliography(daftar pustaka dan footnote)
+%verbose karena style "apa" ada masalah di device saya
 \usepackage{amsmath} %untuk simbol matematika dasar
+\usepackage{lipsum} %untuk dummy text
 \usepackage{ulem}%untuk underline
 \usepackage{graphicx}
 \usepackage{geometry}
@@ -38,10 +42,9 @@
 \newcommand{\nonumsection}[1]{\section*{#1}
 \addcontentsline{toc}{section}{#1}
 }
-
 \usepackage{xparse} % flexible new command serta logical IfValueTF
-
 \usepackage{mfirstuc} % kapital huruf pertama
+\addbibresource{src/makalah.bib} %file daftar pustaka
 
 % Membuat textbox dengan background warna tertentu
 \NewDocumentCommand{\warnaln}{mo}{%
@@ -97,37 +100,32 @@
 \tableofcontents
 \newpage
 \section{Pendahuluan}
+\lipsum[1]
 \subsection{Latar Belakang}
-lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-lorem ipsum dolor sit amet, consecture adipiscing elit. Vivamus luctus urna sed urna ultricies ac tempor dui sagittis. In condimentum facilisis porta. Sed nec diam eu diam mattis viverra. Nulla fringilla, orci ac euismod semper, magna diam porttitor mauris, quis sollicitudin sapien justo in libero. Fusce convallis metus id felis luctus adipiscing. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nam nec ante. Sed lacinia, urna non tincidunt mattis, tortor neque adipiscing diam, a cursus ipsum ante quis turpis. Nulla facilisi. Ut fringilla. Suspendisse potenti. Nunc feugiat mi a tellus consequat imperdiet. Vestibulum sapien. Proin quam. Etiam ultrices. Suspendisse in justo eu magna luctus suscipit. Sed lectus. Integer euismod lacus luctus magna. Quisque cursus, metus vitae pharetra auctor.
+\lipsum[2-3]\footcite{book1}
 \subsection{Rumusan Masalah}
-lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+\lipsum[4]
 \newpage
 
 \section{Metode Penelitian}
-\subsection{Metode 1}
-lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-\subsection{Metode 2}
-lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-\subsection{Metode 3}
-lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+\lipsum[5]\footcite{book2}
+\subsection{Metode Penelitian 1}
+\lipsum[6]\footcite{book3}
+\subsection{Metode Penelitian 2}
+\lipsum[7]\footcite{book4}
+\subsection{Metode Penelitian 3}
+\lipsum[8]\footcite{book5}
 \newpage
 
 \section{Kesimpulan}
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus luctus urna sed urna ultricies ac tempor dui sagittis. In condimentum facilisis porta. Sed nec diam eu diam mattis viverra. Nulla fringilla, orci ac euismod semper, magna diam porttitor mauris, quis sollicitudin sapien justo in libero. Fusce convallis metus id felis luctus adipiscing. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nam nec ante. Sed lacinia, urna non tincidunt mattis, tortor neque adipiscing diam, a cursus ipsum ante quis turpis. Nulla facilisi. Ut fringilla. Suspendisse potenti. Nunc feugiat mi a tellus consequat imperdiet. Vestibulum sapien. Proin quam. Etiam ultrices. Suspendisse in justo eu magna luctus suscipit. Sed lectus. Integer euismod lacus luctus magna. Quisque cursus, metus vitae pharetra auctor, sem massa mattis sem, at interdum magna augue eget diam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Morbi lacinia molestie dui. Praesent blandit dolor. Sed non quam. In vel mi sit amet augue congue elementum. Morbi in ipsum sit amet pede facilisis laoreet. Donec lacus nunc, viverra nec.
-
-Proin vel sem ut lorem rhoncus elementum. Nam aliquam, arcu eu hendrerit gravida, nisl purus aliquet risus, non tristique enim sapien vel nisl. Integer sit amet quam nec magna tincidunt lacinia. Proin elementum est vitae mauris vestibulum, non congue metus elementum. Integer fringilla sit amet quam vitae dignissim. Sed ut libero fermentum, faucibus erat sed, ultrices velit. Integer gravida volutpat risus, sit amet accumsan quam tincidunt eu. Nullam sed libero ac felis volutpat ultricies nec eu tortor. Suspendisse potenti. Praesent tincidunt sem neque, sit amet facilisis est volutpat in. Vivamus ultricies nisi nec augue placerat rutrum. Integer euismod risus non quam commodo, et lacinia ligula vehicula. Mauris non enim molestie ligula feugiat consequat. Pellentesque fermentum suscipit tortor, sit amet gravida felis scelerisque id. Nulla consectetur, arcu in cursus blandit, erat mauris feugiat lectus, sed pulvinar nisi urna quis leo. Vivamus vehicula velit erat, vitae ultrices ligula consectetur vel. Duis porttitor erat quis dui convallis, at pharetra sapien consectetur. Suspendisse fermentum magna metus, nec fringilla arcu aliquet a.
-
-Cras id sapien placerat, volutpat nisl eget, feugiat dui. Mauris tempor eu mi nec facilisis. Nulla vulputate ipsum velit, vitae blandit lorem facilisis vel. Sed convallis magna nec ipsum varius cursus. Proin eget velit libero. Nam auctor aliquam arcu nec sodales. Maecenas sit amet erat in arcu scelerisque tristique. Nam eu risus in mauris cursus blandit. Mauris commodo velit vel enim pellentesque tristique. Pellentesque ac ligula non augue elementum pharetra. Nulla quis libero ut justo vulputate eleifend. Curabitur dictum nisl id arcu dignissim, sed suscipit est ultricies. Suspendisse potenti. Fusce et neque risus. Donec ut est lectus. Cras gravida, metus vitae tempor dictum, est nulla fringilla tellus, non auctor ligula elit a metus. Sed posuere eros eget neque sagittis, a vulputate massa bibendum. Sed ac est sapien. In varius, ipsum in vehicula consectetur, neque quam facilisis justo, ac lobortis risus purus eu sapien.
+\lipsum[4-5]\footcite{book1}
+\footcite{book2}
 \newpage
 
 \nonumsection{Daftar Pustaka}
+\printbibliography[heading=none, title={Daftar Pustaka}]
 \begin{enumerate}
   \item \textcolor{blue}{\href{link}{Hint Text}}
-
 \end{enumerate}
 \end{document}
 

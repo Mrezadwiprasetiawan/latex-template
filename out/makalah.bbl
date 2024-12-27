@@ -1,0 +1,160 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global/global}
+    \entry{book1}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=1318a946c3fffa54cec1130748f21c17}{%
+           family={Author},
+           familyi={A\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Publisher}%
+      }
+      \strng{namehash}{1318a946c3fffa54cec1130748f21c17}
+      \strng{fullhash}{1318a946c3fffa54cec1130748f21c17}
+      \strng{fullhashraw}{1318a946c3fffa54cec1130748f21c17}
+      \strng{bibnamehash}{1318a946c3fffa54cec1130748f21c17}
+      \strng{authorbibnamehash}{1318a946c3fffa54cec1130748f21c17}
+      \strng{authornamehash}{1318a946c3fffa54cec1130748f21c17}
+      \strng{authorfullhash}{1318a946c3fffa54cec1130748f21c17}
+      \strng{authorfullhashraw}{1318a946c3fffa54cec1130748f21c17}
+      \field{extraname}{1}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Title}
+      \field{year}{2001}
+    \endentry
+    \entry{book2}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=bfd608ec341f02d80ef61a344bb781ac}{%
+           family={Author},
+           familyi={A\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Publisher}%
+      }
+      \strng{namehash}{bfd608ec341f02d80ef61a344bb781ac}
+      \strng{fullhash}{bfd608ec341f02d80ef61a344bb781ac}
+      \strng{fullhashraw}{bfd608ec341f02d80ef61a344bb781ac}
+      \strng{bibnamehash}{bfd608ec341f02d80ef61a344bb781ac}
+      \strng{authorbibnamehash}{bfd608ec341f02d80ef61a344bb781ac}
+      \strng{authornamehash}{bfd608ec341f02d80ef61a344bb781ac}
+      \strng{authorfullhash}{bfd608ec341f02d80ef61a344bb781ac}
+      \strng{authorfullhashraw}{bfd608ec341f02d80ef61a344bb781ac}
+      \field{extraname}{2}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Title}
+      \field{year}{2002}
+    \endentry
+    \entry{book3}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=902ab013c40cee609e5e568f752bb986}{%
+           family={Author},
+           familyi={A\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Publisher}%
+      }
+      \strng{namehash}{902ab013c40cee609e5e568f752bb986}
+      \strng{fullhash}{902ab013c40cee609e5e568f752bb986}
+      \strng{fullhashraw}{902ab013c40cee609e5e568f752bb986}
+      \strng{bibnamehash}{902ab013c40cee609e5e568f752bb986}
+      \strng{authorbibnamehash}{902ab013c40cee609e5e568f752bb986}
+      \strng{authornamehash}{902ab013c40cee609e5e568f752bb986}
+      \strng{authorfullhash}{902ab013c40cee609e5e568f752bb986}
+      \strng{authorfullhashraw}{902ab013c40cee609e5e568f752bb986}
+      \field{extraname}{3}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Title}
+      \field{year}{2003}
+    \endentry
+    \entry{book4}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=f0d70d5e25003ed443c854fe5ecce070}{%
+           family={Author},
+           familyi={A\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Publisher}%
+      }
+      \strng{namehash}{f0d70d5e25003ed443c854fe5ecce070}
+      \strng{fullhash}{f0d70d5e25003ed443c854fe5ecce070}
+      \strng{fullhashraw}{f0d70d5e25003ed443c854fe5ecce070}
+      \strng{bibnamehash}{f0d70d5e25003ed443c854fe5ecce070}
+      \strng{authorbibnamehash}{f0d70d5e25003ed443c854fe5ecce070}
+      \strng{authornamehash}{f0d70d5e25003ed443c854fe5ecce070}
+      \strng{authorfullhash}{f0d70d5e25003ed443c854fe5ecce070}
+      \strng{authorfullhashraw}{f0d70d5e25003ed443c854fe5ecce070}
+      \field{extraname}{4}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Title}
+      \field{year}{2004}
+    \endentry
+    \entry{book5}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=579e6dfe58cdc32bc6d2866667ca4c5f}{%
+           family={Author},
+           familyi={A\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Publisher}%
+      }
+      \strng{namehash}{579e6dfe58cdc32bc6d2866667ca4c5f}
+      \strng{fullhash}{579e6dfe58cdc32bc6d2866667ca4c5f}
+      \strng{fullhashraw}{579e6dfe58cdc32bc6d2866667ca4c5f}
+      \strng{bibnamehash}{579e6dfe58cdc32bc6d2866667ca4c5f}
+      \strng{authorbibnamehash}{579e6dfe58cdc32bc6d2866667ca4c5f}
+      \strng{authornamehash}{579e6dfe58cdc32bc6d2866667ca4c5f}
+      \strng{authorfullhash}{579e6dfe58cdc32bc6d2866667ca4c5f}
+      \strng{authorfullhashraw}{579e6dfe58cdc32bc6d2866667ca4c5f}
+      \field{extraname}{5}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Title}
+      \field{year}{2005}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
